@@ -194,6 +194,7 @@ public class BeerControllerTest {
                 .andExpect(jsonPath("$.quantity", is(beerDTO.getQuantity())));
     }
 
+//    TESTES DESENVOLVIDOS PARA CRIAÇÃO DE FUNCIONALIDADE DE INCREMENTO E DECREMENTO DA QUANTIDADE DE CERVEJAS A PARTIR DE TDD
 //    @Test
 //    void whenPATCHIsCalledToIncrementGreatherThanMaxThenBadRequestStatusIsReturned() throws Exception {
 //        QuantityDTO quantityDTO = QuantityDTO.builder()
