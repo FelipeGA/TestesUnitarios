@@ -203,7 +203,7 @@ public class BeerServiceTest {
         assertThrows(BeerNotFoundException.class, () -> beerService.increment(INVALID_BEER_ID, quantityToIncrement));
     }
 
-    //      TESTES DESENVOLVIDOS PARA DESENVOLVIMENTO DE FUNCIONALIDADE DE INCREMENTO E DECREMENTO DA QUANTIDADE DE CERVEJAS A PARTIR DE TDD
+    //      TESTES DESENVOLVIDOS PARA CRIAÇÃO DE FUNCIONALIDADE DE INCREMENTO E DECREMENTO DA QUANTIDADE DE CERVEJAS A PARTIR DE TDD
 //    @Test
 //    void whenDecrementIsCalledThenDecrementBeerStock() throws BeerNotFoundException, BeerStockExceededException {
 //        BeerDTO expectedBeerDTO = BeerDTOBuilder.builder().build().toBeerDTO();
